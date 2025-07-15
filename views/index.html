@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevBurguer</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+            <img src="/images/logo.png", alt="LOGO">
+        </header>
+        <div class="container">
+            <h1>Cardápio</h2>
+            <h2>🍔 Burguers Clássicos</h3>
+            <p><strong>World Burguer - </strong>pão artesanal, hambúrguer 180g, queijo cheddar, alface, tomate e maionese da casa.</p>
+            <p><strong>Stack Overflow - </strong>duplo hambúrguer, bacon crocante, cebola caramelizada, cheddar duplo e molho barbecue.</p>
+            <p><strong>404 Not Found Veggie - </strong>Hambúrguer de grão-de-bico, rúcula, tomate seco, queijo vegano e maionese de ervas.</p>
+            <h2>💻 Burgers Especiais</h3>
+            <p>Bug Tracker Bacon - <strong></strong>Hambúrguer 180g, cheddar, muito bacon, picles e molho defumado.</p>
+            <p>Full Stack Supreme - <strong></strong>Hambúrguer bovino + hambúrguer de frango, queijo, cebola roxa, alface americana e molho DevSpecial.</p>
+            <p>Dark Mode BBQ - <strong></strong>Pão preto com carvão ativado, hambúrguer angus, cebola empanada, cheddar defumado e molho barbecue escuro.</p>
+            <h2>💡 Sugira um novo sabor!</h2>
+            <form action="/sugestao" method="GET">
+                <label for="nome">Informe o seu nome:</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="ingredientes">Ingredientes do sabor:</label>
+                <input type="text" name="ingredientes" id="ingredientes" required>
+                <button type="submit">Enviar sugestão</button>
+            </form>
+            <nav>
+                <a href="/contato">Contato</a>
+                <a href="/api/lanches">Lanches</a>
+            </nav>
+        </div>
+    </body>
+</html>
