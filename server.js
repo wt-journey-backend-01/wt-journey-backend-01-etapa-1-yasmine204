@@ -15,9 +15,10 @@ app.get('/', (req, res) => {
 app.get('/sugestao', (req, res) => {
     const nome = req.query.nome;
     const ingredientes = req.query.ingredientes;
-    res.status(200).send(
-        `<h1>Obrigado pelo sugestão, ${nome}!</h1>
-        <p>Os ingredientes sugeridos foram ${ingredientes}.</p>`
+    res.status(200).send(`
+        <h1>Obrigado pelo sugestão, ${nome}!</h1>
+        <p>Os ingredientes sugeridos foram ${ingredientes}.</p>
+        <a href="/">Cardápio</a>`
     );
 
     res.status(200);
